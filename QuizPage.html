@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" href="Image/cloud.jpg">
+        <link rel="stylesheet" type="text/css" href="StylingQuiz.css">
+        <title> Cloudy Secret Message - Moon</title>
+    </head>
+    <body>
+        <h1> Choose the correct answer and get the secret words!</h1>
+        <div id="boxLuarQuiz">
+            <button type="button" id="startQuiz"> Start Quiz </button>
+            <div id="quiz" style="display: none">
+                <div id="question"> </div>
+                <div id="multipleChoice">
+                    <ul id="ul">
+                        <li id="0" onclick="checkAns('0')"></li>
+                        <li id="1" onclick="checkAns('1')"></li>
+                        <li id="2" onclick="checkAns('2')"></li>
+                        <li id="3" onclick="checkAns('3')"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="benarSalah"></div>
+        <button type="button" onclick="" id="button" style="display: none;"> <b> Try Again?</b></button>
+        <script src="JavaScriptQuiz.js"></script>
+    </body>
+</html>
